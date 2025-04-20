@@ -7,8 +7,9 @@ const Navbar = () => {
         <li className="mr-2">Home</li>
       </Link>
       <Link to="/about">
-        <li>About</li>
+        <li className="mr-2">About</li>
       </Link>
+      <Link to= '/readlist'>ReadList</Link>
     </>
   );
   return (
